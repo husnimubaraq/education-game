@@ -13,7 +13,7 @@ const Main = () => {
     <Screen>
       <Header/>
 
-      <View className='items-center mt-10 ml-10'>
+      <View className='items-center ml-10'>
         <Button
           image={require('../../../assets/images/play-icon.png')}
           imageClassName='w-[40px] h-[40px]'

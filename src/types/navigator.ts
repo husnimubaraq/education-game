@@ -4,7 +4,9 @@ export type RootStackParamList = {
     Main: undefined
     Home: undefined
     Game: undefined
-    Play: undefined
+    Play: {
+        operator: 'plus' | 'min'
+    }
     Biometric: undefined
 }
 

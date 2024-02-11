@@ -181,6 +181,7 @@ const styles = StyleSheet.create({
     white: {
         color: 'white',
         fontFamily: 'Rubik-Medium',
-        fontSize: 20
+        fontSize: 20,
+        textAlign: 'center'
     }
 })

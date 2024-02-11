@@ -20,7 +20,9 @@ const Game = () => {
           <Button
             title="Game Penjumlahan"
             size='text'
-            onPress={() => navigate('Play')}
+            onPress={() => navigate('Play', {
+              operator: 'plus'
+            })}
           />
         </View>
         <View className='w-[33%]'/>
@@ -39,6 +41,9 @@ const Game = () => {
           <Button
             title="Game Pengurangan"
             size='text'
+            onPress={() => navigate('Play', {
+              operator: 'min'
+            })}
           />
         </View>
         <View className='w-[33%]'/>
