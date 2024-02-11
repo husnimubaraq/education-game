@@ -39,6 +39,7 @@ const Home = () => {
           <Button
             title="Biometrik Berhitung"
             size='text'
+            onPress={() => navigate('Biometric')}
           />
         </View>
         <View className='w-[33%]'/>
